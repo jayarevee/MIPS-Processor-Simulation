@@ -1,0 +1,14 @@
+[Inputs]
+clock
+clock1
+reset
+MSB
+=Din[7:0]=
+[Outputs]
+overflow
+zero
+carryout
+=pcout[4:0]=
+=enout[3:0]=
+=dout[7:0]=
+[BiDir]

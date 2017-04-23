@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Mux2to1.vhd -prj Proj6 -o Mux2to1.spl -module Mux2to1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Mux2to1.spl E:/Proj6/Mux2to1.sym 

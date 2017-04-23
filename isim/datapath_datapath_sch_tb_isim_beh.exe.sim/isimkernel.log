@@ -1,0 +1,10 @@
+Command line:
+   datapath_datapath_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49294
+
+Fri Dec 11 10:31:12 2015
+
+
+ Elaboration Time: 0.234001 sec

@@ -1,0 +1,7 @@
+[Inputs]
+zero
+beq
+bne
+[Outputs]
+func
+[BiDir]

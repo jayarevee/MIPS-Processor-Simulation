@@ -1,0 +1,2 @@
+vhdtdtfi -lib work instmem(4).vhd -prj Proj6 -o instmem.spl -module instmem -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e instmem.spl E:/Proj6/instmem.sym 

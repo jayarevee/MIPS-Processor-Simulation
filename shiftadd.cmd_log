@@ -1,0 +1,2 @@
+vhdtdtfi -lib work shiftadd.vhd -prj Proj6 -o shiftadd.spl -module shiftadd -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e shiftadd.spl E:/Proj6/shiftadd.sym 

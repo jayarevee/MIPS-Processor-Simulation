@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "Z:/Desktop/Proj6.5 part1/Proj6.3/datapath_datapath_sch_tb_isim_beh.exe" -prj "Z:/Desktop/Proj6.5 part1/Proj6.3/datapath_datapath_sch_tb_beh.prj" "work.datapath_datapath_sch_tb" 

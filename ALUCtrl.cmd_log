@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ALUCtrl.vhd -prj Proj6 -o ALUCtrl.spl -module ALUCtrl -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ALUCtrl.spl E:/Proj6/ALUCtrl.sym 

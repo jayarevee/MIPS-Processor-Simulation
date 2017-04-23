@@ -1,0 +1,2 @@
+vhdtdtfi -lib work regfile(1).vhd -prj Proj6 -o regfile.spl -module regfile -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e regfile.spl E:/Proj6/regfile.sym 

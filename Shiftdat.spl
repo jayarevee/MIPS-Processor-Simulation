@@ -1,0 +1,5 @@
+[Inputs]
+=shiftee[31:0]=
+[Outputs]
+=shifted[31:0]=
+[BiDir]

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work PCADD.vhd -prj Proj6 -o PCADD.spl -module PCADD -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PCADD.spl E:/Proj6/PCADD.sym 

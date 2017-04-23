@@ -1,0 +1,2 @@
+vhdtdtfi -lib work addthirtytwo.vhd -prj Proj6 -o addthirtytwo.spl -module addthirtytwo -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e addthirtytwo.spl E:/Proj6/addthirtytwo.sym 

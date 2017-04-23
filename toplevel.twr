@@ -1,0 +1,141 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf
+-ucf top_ucf(3).ucf
+
+Design file:              toplevel.ncd
+Physical constraint file: toplevel.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+Din<0>      |    3.434(R)|   -0.402(R)|clock_BUFGP       |   0.000|
+Din<1>      |    3.818(R)|   -1.183(R)|clock_BUFGP       |   0.000|
+Din<2>      |    2.885(R)|   -0.779(R)|clock_BUFGP       |   0.000|
+Din<3>      |    4.641(R)|   -1.660(R)|clock_BUFGP       |   0.000|
+Din<4>      |    4.373(R)|   -1.253(R)|clock_BUFGP       |   0.000|
+Din<5>      |    5.575(R)|   -1.303(R)|clock_BUFGP       |   0.000|
+Din<6>      |    3.430(R)|   -1.094(R)|clock_BUFGP       |   0.000|
+Din<7>      |    2.961(R)|   -0.744(R)|clock_BUFGP       |   0.000|
+reset       |   15.173(R)|    1.046(R)|clock_BUFGP       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+carryout    |   19.332(R)|clock_BUFGP       |   0.000|
+dout<0>     |   11.210(R)|clock_BUFGP       |   0.000|
+dout<1>     |   11.357(R)|clock_BUFGP       |   0.000|
+dout<2>     |   11.216(R)|clock_BUFGP       |   0.000|
+dout<3>     |   11.197(R)|clock_BUFGP       |   0.000|
+dout<4>     |   11.463(R)|clock_BUFGP       |   0.000|
+dout<5>     |   11.212(R)|clock_BUFGP       |   0.000|
+dout<6>     |   11.446(R)|clock_BUFGP       |   0.000|
+overflow    |   21.041(R)|clock_BUFGP       |   0.000|
+pout<0>     |    7.346(R)|clock_BUFGP       |   0.000|
+pout<1>     |    7.844(R)|clock_BUFGP       |   0.000|
+pout<2>     |    7.552(R)|clock_BUFGP       |   0.000|
+pout<3>     |    7.054(R)|clock_BUFGP       |   0.000|
+pout<4>     |    7.961(R)|clock_BUFGP       |   0.000|
+------------+------------+------------------+--------+
+
+Clock clock1 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+dout<0>     |   11.481(R)|clock1_BUFGP      |   0.000|
+dout<1>     |   11.628(R)|clock1_BUFGP      |   0.000|
+dout<2>     |   11.723(R)|clock1_BUFGP      |   0.000|
+dout<3>     |   11.687(R)|clock1_BUFGP      |   0.000|
+dout<4>     |   11.953(R)|clock1_BUFGP      |   0.000|
+dout<5>     |   11.693(R)|clock1_BUFGP      |   0.000|
+dout<6>     |   11.765(R)|clock1_BUFGP      |   0.000|
+enout<0>    |    8.191(R)|clock1_BUFGP      |   0.000|
+enout<1>    |    8.392(R)|clock1_BUFGP      |   0.000|
+enout<2>    |    8.946(R)|clock1_BUFGP      |   0.000|
+enout<3>    |    8.620(R)|clock1_BUFGP      |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |   17.499|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock1         |    3.023|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+MSB            |dout<0>        |    7.339|
+MSB            |dout<1>        |    7.486|
+MSB            |dout<2>        |    7.445|
+MSB            |dout<3>        |    7.547|
+MSB            |dout<4>        |    7.813|
+MSB            |dout<5>        |    7.431|
+MSB            |dout<6>        |    7.926|
+MSB            |dout<7>        |    6.395|
+reset          |carryout       |   16.229|
+reset          |overflow       |   17.943|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Dec 10 22:15:58 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 168 MB
+
+
+

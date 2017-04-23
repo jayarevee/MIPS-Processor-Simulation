@@ -1,0 +1,11 @@
+[Inputs]
+clock
+MemWrite
+=Din[7:0]=
+=ALUout[31:0]=
+=Data2[31:0]=
+=Read_data[31:0]=
+[Outputs]
+=Dout[31:0]=
+=IOout[31:0]=
+[BiDir]

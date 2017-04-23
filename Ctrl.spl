@@ -1,0 +1,15 @@
+[Inputs]
+Reset
+=OpCode[5:0]=
+[Outputs]
+Jump
+Beq
+Bne
+RegWrite
+RegDst
+MemRead
+MemtoReg
+MemWrite
+ALUsrc
+=ALUop[5:0]=
+[BiDir]

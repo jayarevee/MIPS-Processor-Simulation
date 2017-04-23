@@ -1,0 +1,8 @@
+[Inputs]
+Clk
+Reset
+=A[31:0]=
+[Outputs]
+=Aout[31:0]=
+=Pcout[4:0]=
+[BiDir]

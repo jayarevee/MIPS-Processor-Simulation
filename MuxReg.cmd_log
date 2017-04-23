@@ -1,0 +1,2 @@
+vhdtdtfi -lib work MuxReg.vhd -prj Proj6 -o MuxReg.spl -module MuxReg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MuxReg.spl E:/Proj6/MuxReg.sym 

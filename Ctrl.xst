@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/jvinyoop/Desktop/Proj6.3/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/jvinyoop/Desktop/Proj6.3/xst"
+elaborate
+-ifn Ctrl.prj
+-ifmt mixed

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work SignExt.vhd -prj Proj6 -o SignExt.spl -module SignExt -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e SignExt.spl E:/Proj6/SignExt.sym 

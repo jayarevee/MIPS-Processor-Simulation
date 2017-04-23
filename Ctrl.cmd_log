@@ -1,0 +1,4 @@
+vhdtdtfi -lib work Ctrl.vhd -prj Proj6 -o Ctrl.spl -module Ctrl -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Ctrl.spl E:/Proj6/Ctrl.sym 
+vhdtdtfi -lib work Ctrl.vhd -prj Proj6 -o Ctrl.spl -module Ctrl -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Ctrl.spl C:/Users/jvinyoop/Desktop/Proj6.3/Ctrl.sym 

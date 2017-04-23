@@ -1,0 +1,8 @@
+vhdtdtfi -lib work IO.vhd -prj Proj6 -o IO.spl -module IO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IO.spl Z:/Desktop/Proj6/IO.sym 
+vhdtdtfi -lib work IO.vhd -prj Proj6 -o IO.spl -module IO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IO.spl C:/Users/jvinyoop/Desktop/Proj6.2/IO.sym 
+vhdtdtfi -lib work IO.vhd -prj Proj6 -o IO.spl -module IO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IO.spl Z:/Desktop/Proj6.3/IO.sym 
+vhdtdtfi -lib work IO.vhd -prj Proj6 -o IO.spl -module IO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IO.spl Z:/Desktop/Proj6.3/IO.sym 

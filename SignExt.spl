@@ -1,0 +1,5 @@
+[Inputs]
+=bittie16[15:0]=
+[Outputs]
+=bittie32[31:0]=
+[BiDir]

@@ -1,0 +1,6 @@
+[Inputs]
+=ALUop[5:0]=
+=Func[5:0]=
+[Outputs]
+=ALUC[3:0]=
+[BiDir]

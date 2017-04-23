@@ -1,0 +1,7 @@
+[Inputs]
+Clk_sel
+=clk_0[31:0]=
+=Clk_S[31:0]=
+[Outputs]
+=Clkout[31:0]=
+[BiDir]

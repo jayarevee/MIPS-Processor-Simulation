@@ -1,0 +1,6 @@
+[Inputs]
+=A[31:0]=
+=B[31:0]=
+[Outputs]
+=sum[31:0]=
+[BiDir]
